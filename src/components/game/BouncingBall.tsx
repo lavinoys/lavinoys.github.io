@@ -18,16 +18,16 @@ const BouncingBall: React.FC = () => {
     const ctx = canvas.getContext('2d')!;
 
     const ball: Ball = {
-      x: Math.min(window.innerWidth, 600) / 2,
-      y: Math.min(window.innerHeight, 500) / 2,
+      x: Math.min(window.innerWidth, 300) / 2,
+      y: Math.min(window.innerHeight, 250) / 2,
       vx: 5,
       vy: 5,
       radius: 10,
     };
 
     const setCanvasSize = () => {
-      canvas.width = Math.min(window.innerWidth, 600);
-      canvas.height = Math.min(window.innerHeight, 500);
+      canvas.width = Math.min(window.innerWidth, 300);
+      canvas.height = Math.min(window.innerHeight, 250);
     };
 
     setCanvasSize();
