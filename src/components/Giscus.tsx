@@ -20,9 +20,9 @@ export default function Giscus() {
     scriptElem.crossOrigin = 'anonymous';
 
     scriptElem.setAttribute('data-repo', 'lavinoys/lavinoys.github.io');
-    scriptElem.setAttribute('data-repo-id', 'R_kgDOJFVt7w');
+    scriptElem.setAttribute('data-repo-id', 'R_kgDOJNm0ag');
     scriptElem.setAttribute('data-category', 'General');
-    scriptElem.setAttribute('data-category-id', 'DIC_kwDOJFVt784CUpR-');
+    scriptElem.setAttribute('data-category-id', 'DIC_kwDOJNm0as4CVG5d');
     scriptElem.setAttribute('data-mapping', 'pathname');
     scriptElem.setAttribute('data-strict', '0');
     scriptElem.setAttribute('data-reactions-enabled', '1');
