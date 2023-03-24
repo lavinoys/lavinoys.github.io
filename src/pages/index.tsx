@@ -4,6 +4,7 @@ import React from 'react';
 import LinkArrow from '~/components/common/LinkArrow';
 import PlainText from '~/components/common/PlainText';
 import Title from '~/components/common/Title';
+import BouncingBall from '~/components/game/BouncingBall';
 import Layout from '~/components/layouts/Layout';
 import { PageSEO } from '~/components/SEO';
 import { fadeIn, fadeInHalf, staggerHalf } from '~/constants/animations';
@@ -24,6 +25,8 @@ export default function Home() {
           <PlainText>Test.</PlainText>
         </motion.div>
       </motion.section>
+
+      <BouncingBall />
 
       <motion.section className="mt-16" variants={staggerHalf} initial="initial" animate="animate">
         <motion.div variants={fadeIn}>
