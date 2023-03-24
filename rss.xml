@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>lavinoys blog</title>
+        <link>https://lavinoys.github.io</link>
+        <description>Test.</description>
+        <lastBuildDate>Fri, 24 Mar 2023 04:12:17 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>generate-rss</generator>
+        <language>ko</language>
+        <image>
+            <title>lavinoys blog</title>
+            <url>https://lavinoys.github.io/images/base.jpg</url>
+            <link>https://lavinoys.github.io</link>
+        </image>
+        <copyright>All rights reserved since 2023, Tom</copyright>
+        <category>Technologies</category>
+        <item>
+            <title><![CDATA[CSS-in-JS 라이브러리들에 대한 고찰]]></title>
+            <link>https://lavinoys.github.io/blog/2022/css-in-js</link>
+            <guid>/blog/2022/css-in-js</guid>
+            <pubDate>Fri, 11 Feb 2022 16:31:47 GMT</pubDate>
+            <description><![CDATA[다양한 CSS-in-JS 라이브러리가 있는데 이들은 어떤 차이점이 있을까? 더 나아가 어떤 상황에서 어떤 라이브러리를 사용하면 좋을까? 🍀]]></description>
+            <content:encoded><![CDATA[들어가면서 이 글의 목적 - 다양한 CSS-in-JS 라이브러리가 있는데 이들은 어떤 차이점이 있을까? - 더 나아가 어떤 상황에서 어떤 라이브러리를 사용하면 좋을까? <br /> CSS-in-JS가 대세인 이유 - 중복되지 않는 c...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>styled-components</category>
+            <category>emotion</category>
+            <category>linaria</category>
+            <category>vanilla-extract</category>
+            <category>stitches</category>
+        </item>
+        <item>
+            <title><![CDATA[(ESLint) Parsing error: The keyword 'import' is reserved]]></title>
+            <link>https://lavinoys.github.io/blog/2022/eslint-parse-error-import</link>
+            <guid>/blog/2022/eslint-parse-error-import</guid>
+            <pubDate>Tue, 27 Dec 2022 19:56:23 GMT</pubDate>
+            <content:encoded><![CDATA[vscode에서 개발 중 `Parsing error: The keyword 'import' is reserved`를 마주칠 때가 있다. `typescript` 기반으로 개발을 하는데 `javascript`으로 된 설정 파일에서 에러를...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>troubleshooting</category>
+            <category>eslint</category>
+        </item>
+        <item>
+            <title><![CDATA[Markdown Template Example]]></title>
+            <link>https://lavinoys.github.io/blog/2022/example</link>
+            <guid>/blog/2022/example</guid>
+            <pubDate>Thu, 17 Nov 2022 21:12:24 GMT</pubDate>
+            <description><![CDATA[마크다운 문법 사용 템플릿]]></description>
+            <content:encoded><![CDATA[h2 Heading h3 Heading h3 Bold Heading h4 Heading "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>markdown</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js에 구글 애드센스 적용하기]]></title>
+            <link>https://lavinoys.github.io/blog/2022/google-adsense</link>
+            <guid>/blog/2022/google-adsense</guid>
+            <pubDate>Sun, 04 Dec 2022 17:00:11 GMT</pubDate>
+            <content:encoded><![CDATA[수익성 이해하기 수익은 월별 페이지 조회수 50,000부터 시작합니다. 따라서 그 이하의 조회수는 수익이 발생되지 않겠지요 🥲 Google 애드센스 계산기를 통해서 연수익을 예상할 수 있습니다. 아시아 기준 인터넷 관련 콘텐츠에서 ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>google adsense</category>
+        </item>
+        <item>
+            <title><![CDATA[styled-components 과 emotion, 도대체 차이가 뭔가?]]></title>
+            <link>https://lavinoys.github.io/blog/2022/styled-components-vs-emotion</link>
+            <guid>/blog/2022/styled-components-vs-emotion</guid>
+            <pubDate>Thu, 10 Feb 2022 16:30:09 GMT</pubDate>
+            <description><![CDATA[styled-components vs emotion 💥 도대체 차이가 뭘까??]]></description>
+            <content:encoded><![CDATA[React에서는 보통 CSS-in-JS을 통해 스타일 작업을 진행한다. 그중에서 styled-components, emotion이 가장 유명하고 많이 사용된다. 하지만 도대체 차이가 뭘까? <br /> <br /> <br /> 제공하...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>styled-components</category>
+            <category>emotion</category>
+        </item>
+        <item>
+            <title><![CDATA[프론트엔드 개발자 도구함]]></title>
+            <link>https://lavinoys.github.io/blog/2023/2023-frontend-library</link>
+            <guid>/blog/2023/2023-frontend-library</guid>
+            <pubDate>Mon, 30 Jan 2023 14:08:18 GMT</pubDate>
+            <description><![CDATA[직접 개발말고, 좋은 라이브러리를 씁시다!]]></description>
+            <content:encoded><![CDATA[세상에는 좋은 라이브러리가 정말 많다! 100% 무료인 라이브러리들을 정리해봤다. 전부 써본 것은 아니고 필요할 때 써보면 좋겠다 싶은 것들만 정리했습니다. UI Design System `material-ui` `react` &nb...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>라이브러리</category>
+        </item>
+        <item>
+            <title><![CDATA[차세대 번들러 비교 및 분석 (feat. webpack, rollup, esbuild, vite)]]></title>
+            <link>https://lavinoys.github.io/blog/2023/bundlers</link>
+            <guid>/blog/2023/bundlers</guid>
+            <pubDate>Tue, 21 Feb 2023 13:19:01 GMT</pubDate>
+            <description><![CDATA[번들러가 왜 필요하고 어떻게 발전되고 가고 있을까?]]></description>
+            <content:encoded><![CDATA[번들러 란? 간단하게 설명하자면 여러개의 파일들을 하나의 파일로 묶어주는 도구입니다. 프론트엔드에서 번들러의 역사가 길다면 길고 짧다고 하면 짧다고할 수 있을 것 같습니다. 지금은 너무나도 당연하게 `webpack` `vite` 같은...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>bundler</category>
+        </item>
+        <item>
+            <title><![CDATA[안드로이드에서 브라우저 디버깅하는 방법 (feat. 크롬, 삼성 브라우저)]]></title>
+            <link>https://lavinoys.github.io/blog/2023/debug-in-android-web</link>
+            <guid>/blog/2023/debug-in-android-web</guid>
+            <pubDate>Thu, 26 Jan 2023 13:12:37 GMT</pubDate>
+            <content:encoded><![CDATA[안드로이드에서 브라우저 디버깅을 해야할 때가 있다. MAC 환경에서 어떻게 디버깅할 수 있는지 한번 정리해보자. 환경 세팅 brew install --cask android-platform-tools 안드로이드 개발자모드 설정 갤럭시...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>android</category>
+            <category>debug</category>
+        </item>
+        <item>
+            <title><![CDATA[내가 기본적으로 사용하는 ESLint 설정]]></title>
+            <link>https://lavinoys.github.io/blog/dev-setting/eslint</link>
+            <guid>/blog/dev-setting/eslint</guid>
+            <pubDate>Sat, 18 Feb 2023 14:07:14 GMT</pubDate>
+            <content:encoded><![CDATA[> 사심 ❤️을 넘치게 담아서 기록한 eslint 설정입니다. 사용 환경 - typescript - tailwindcss yarn add -D eslint @typescript-eslint/parser yarn add -D eslin...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>eslint</category>
+        </item>
+        <item>
+            <title><![CDATA[프론트엔드 개발환경 세팅]]></title>
+            <link>https://lavinoys.github.io/blog/dev-setting</link>
+            <guid>/blog/dev-setting</guid>
+            <pubDate>Sat, 28 Jan 2023 12:28:43 GMT</pubDate>
+            <description><![CDATA[안 해본 사람은 있어도 한 번만 하는 사람은 없다.]]></description>
+            <content:encoded><![CDATA[...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>development settings</category>
+        </item>
+        <item>
+            <title><![CDATA[M1 터미널 아키텍처 설정 (arm64, x86_64)]]></title>
+            <link>https://lavinoys.github.io/blog/dev-setting/m1-muti-terminal-architecture</link>
+            <guid>/blog/dev-setting/m1-muti-terminal-architecture</guid>
+            <pubDate>Wed, 27 Apr 2022 16:52:28 GMT</pubDate>
+            <content:encoded><![CDATA[모듈을 다운 받다가 아래 에러를 마주쳤다.. Error: Your platform and architecture (Darwin-arm64) is unsupported. Intel 프로세서 아키텍처는 x86_64 이고 Apple Sil...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[preact을 시작해보자. vite와 함께.]]></title>
+            <link>https://lavinoys.github.io/blog/dev-setting/preact</link>
+            <guid>/blog/dev-setting/preact</guid>
+            <pubDate>Mon, 13 Mar 2023 17:52:39 GMT</pubDate>
+            <content:encoded><![CDATA[preact란? 가볍고 빠르다. 그 핵심은 `Preact does not implement a synthetic event system`이라고 한다. 가능한 `Virtual DOM` 추상화 수준을 낮춰서 더욱 직접적으로 `DOM`을 ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>preact</category>
+            <category>vite</category>
+            <category>typescript</category>
+        </item>
+        <item>
+            <title><![CDATA[tailwindcss 완벽 세팅 (feat Next.js)]]></title>
+            <link>https://lavinoys.github.io/blog/dev-setting/tailwindcss</link>
+            <guid>/blog/dev-setting/tailwindcss</guid>
+            <pubDate>Tue, 31 Jan 2023 20:15:20 GMT</pubDate>
+            <content:encoded><![CDATA[기본 설정 yarn add -D tailwindcss postcss autoprefixer npx tailwindcss init -p {4} / @type {import('tailwindcss').Config} / module.exp...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>tailwindcss</category>
+        </item>
+        <item>
+            <title><![CDATA[레포 단위로 VSCode 설정 적용하기]]></title>
+            <link>https://lavinoys.github.io/blog/dev-setting/vscode-eslint-prettier</link>
+            <guid>/blog/dev-setting/vscode-eslint-prettier</guid>
+            <pubDate>Thu, 26 Jan 2023 17:23:10 GMT</pubDate>
+            <content:encoded><![CDATA[repository 단위로 IDE 설정을 강제하고 싶을 때가 있다. 사람마다 제각각 선호하는 설정이 있고 프로젝트 환경에 따라 설정이 달라져 프로젝트마다 이를 다르게 설정해야 한다. `.vscode` 디랙토리에 설정을 명시하여 이를 ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>vscode</category>
+            <category>eslint</category>
+            <category>prettier</category>
+        </item>
+        <item>
+            <title><![CDATA[Drag 이벤트 뽀개기]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master/1-drag-event</link>
+            <guid>/blog/dnd-master/1-drag-event</guid>
+            <pubDate>Sat, 01 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[라이브러리 없이 React에서 element를 커서로 움직이게 하자!!!]]></description>
+            <content:encoded><![CDATA[drag관련해서 좋은 라이브러리들이 있지만 순수하게 구현해보고 싶다. 아래의 스펙으로 구현을 시작해보자 🏄🏻‍♂️ - `NextJS` `React` - `Typescript` - `tailwindcss` TL;DR > `mouse...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>DOM</category>
+        </item>
+        <item>
+            <title><![CDATA[Drag Touch 뽀개기]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master/2-drag-touch-event</link>
+            <guid>/blog/dnd-master/2-drag-touch-event</guid>
+            <pubDate>Sun, 02 Oct 2022 15:00:30 GMT</pubDate>
+            <description><![CDATA[라이브러리 없이 React에서 element를 터치로 움직이게 하자!!!]]></description>
+            <content:encoded><![CDATA[이전 포스트에서 만든 유틸함수에 큰 문제점이 있다. 바로 모바일 기기에서 동작하지 않다는 것이다. <p align="center"> <img src="https://media.tenor.com/e5eV8VVfUXQAAAAM/throw...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>DOM</category>
+        </item>
+        <item>
+            <title><![CDATA[Drag Resize 뽀개기]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master/3-drag-resize</link>
+            <guid>/blog/dnd-master/3-drag-resize</guid>
+            <pubDate>Mon, 03 Oct 2022 15:01:48 GMT</pubDate>
+            <description><![CDATA[라이브러리 없이 React에서 element 크기를 drag해서 조정하자!!!]]></description>
+            <content:encoded><![CDATA[이전 포스트에서 연구한 drag 이벤트를 활용하여 Resize 기능을 구현해보자. TL;DR > getBoundingClientRect를 활용하여 엘리먼트의 크기 정보를 얻는다. > Drag 거리에 맞춰 엘리먼트 크기를 조정해준다. ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>DOM</category>
+        </item>
+        <item>
+            <title><![CDATA[Drag Carousel 뽀개기]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master/4-drag-carousel</link>
+            <guid>/blog/dnd-master/4-drag-carousel</guid>
+            <pubDate>Sat, 08 Oct 2022 15:02:55 GMT</pubDate>
+            <description><![CDATA[라이브러리 없이 React에서 터치로 캐러셀을 만들어 보자!!!]]></description>
+            <content:encoded><![CDATA[TL;DR > 캐러셀을 일정 거리이상 drag시키면 화면을 넘긴다. 기본 원리 — Carousel 동작 여러 방식으로 Carousel를 구현할 수 있지만 아래와 같은 형태로 간편하게 마크업을 짜자. css는 편의상 tailwindcs...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>DOM</category>
+        </item>
+        <item>
+            <title><![CDATA[DND 이벤트 뽀개기]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master/5-drag-and-drop</link>
+            <guid>/blog/dnd-master/5-drag-and-drop</guid>
+            <pubDate>Mon, 10 Oct 2022 15:03:21 GMT</pubDate>
+            <description><![CDATA[라이브러리 없이 React에서 Drag and Drop 이벤트를 구현해보자!!!]]></description>
+            <content:encoded><![CDATA[드디어, 대망의 DND 이벤트를 구현해보도록 하자! 칸반보드, 목차 편집 기능이 실용적이지만 재미삼아서 먼저 퍼즐 맞추기 게임 느낌의 이벤트를 먼저 만들어 보자. ~~어쩌다보니 글이 좀 깁니다...~~ TL;DR > cloneNode...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>DOM</category>
+        </item>
+        <item>
+            <title><![CDATA[react-beautiful-dnd로 TODO 뽀개기]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master/6-react-beautiful-dnd</link>
+            <guid>/blog/dnd-master/6-react-beautiful-dnd</guid>
+            <pubDate>Sun, 16 Oct 2022 15:05:38 GMT</pubDate>
+            <description><![CDATA[라이브러리를 활용해서 React에서 Drag and Drop TODO 칸반 보드를 구현해보자!!!]]></description>
+            <content:encoded><![CDATA[다들 한번씩은 만들어보는 TODO 리스트. Drag and Drop으로 구현해보는 것이 FE 개발자로서의 로망 아닌가 싶다. 그렇다면 한번 뽀개보도록 하자! 우선 라이브러리를 통해서 어떻게 구현하고 어떻게 동작하는지를 알고 라이브러리...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>react-beautiful-dnd</category>
+        </item>
+        <item>
+            <title><![CDATA[라이브러리없이 DND TODO 칸반보드 만들기]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master/7-drag-and-drop-todo</link>
+            <guid>/blog/dnd-master/7-drag-and-drop-todo</guid>
+            <pubDate>Tue, 25 Oct 2022 15:07:04 GMT</pubDate>
+            <description><![CDATA[라이브러리 없이 React에서 Drag and Drop TODO 칸반 보드를 구현해보자!!!]]></description>
+            <content:encoded><![CDATA[대망으로 라이브러리 도움 없이 Drag and Drop이 지원되는 TODO 리스트를 만들어 보자! 지난 포스트에 이어서 React에 Vanilla 스크립트를 붙여서 기능을 구현해봤다. 작업 후기에 대해 먼저 나누자면,, 왠만하면 라이...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>DOM</category>
+        </item>
+        <item>
+            <title><![CDATA[DND 마스터리]]></title>
+            <link>https://lavinoys.github.io/blog/dnd-master</link>
+            <guid>/blog/dnd-master</guid>
+            <pubDate>Sat, 01 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Drag and Drop 이벤트를 라이브러리 없이 구현해서 활용해봅니다.]]></description>
+            <content:encoded><![CDATA[...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>null</category>
+        </item>
+        <item>
+            <title><![CDATA[기술 블로그를 만들 때 고려해야 할 점]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/1-boilerplate</link>
+            <guid>/blog/nextjs-blog/1-boilerplate</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[블로그를 만들 때 어떤 것들을 고려해야 할까? 🤔]]></description>
+            <content:encoded><![CDATA[블로그를 만드는데 생각보다 고려해야할 사항이 많습니다. 어떤 레이아웃을 갖어야 할지, 기능을 어디까지 제공해줘야 할지, 리소스를 어떻게 관리할지... 그 중 SEO를 잘 처리하는 것이 가장 중요한 것 같습니다. 사람들이 검색을 통해서...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 글 페이지 만들기]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/2-blog-list</link>
+            <guid>/blog/nextjs-blog/2-blog-list</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[glob를 활용하여 디랙토리 기반으로 페이지들을 생성해보자 🤔]]></description>
+            <content:encoded><![CDATA[glob patterns를 활용하여 쉽게 파일을 탐색할 수 있습니다. 터미널에서 `ls src//.tsx`을 입력하면 어떤 결과가 나올지 쉽게 유추하실 수 있을 것입니다. 다양한 언어에서 이를 지원하고 있으며 NodeJS 환경에서도 ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>glob</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 글의 추가 정보 파싱하기]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/2-blog-listInfo</link>
+            <guid>/blog/nextjs-blog/2-blog-listInfo</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[gray-matter, reading-time 등을 활용하여 글에 대한 추가 정보를 알아내자.]]></description>
+            <content:encoded><![CDATA[다양한 플랫폼을 참고해보면 글 리스트에서 다양한 데이터가 첨부되어 있습니다. !230109-010815 - 글 제목 - 글 설명 - 글 작성 시간 - 태그 - ... 사용하게 될 라이브러리 소개 yarn add dayjs yarn a...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js mdx plugin]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/3-mdx-plugin</link>
+            <guid>/blog/nextjs-blog/3-mdx-plugin</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[`next-mdx-remote`에서 플로그인으로 이쁜 결과물을 만들자.]]></description>
+            <content:encoded><![CDATA[기본 사용법 ✨ next-mdx-remote를 활용하여 markdown파일을 이쁜 HTML 코드로 변환해줍니다. 추가로 markdown 파일에서 React 컴포넌트를 사용할 수 있는 이점이 있습니다. yarn add next-mdx-...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 Github Pages에 자동 배포하기]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/4-deploy</link>
+            <guid>/blog/nextjs-blog/4-deploy</guid>
+            <pubDate>Sat, 12 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Github Action을 활용하여 자동으로 Github Pages에 배포되도록 하자.]]></description>
+            <content:encoded><![CDATA[레포 준비 `github pages`에 배포할 것익기 때문에 공식 문서 가이드에 따라 진행하면 됩니다. 아래 사항들을 주의하면 됩니다. 1. 기본적으로 github `username` 기반으로 도메인 하위에 생성된다. ex `lavi...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>github action</category>
+            <category>github pages</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 sitemap 생성, 검색엔진 등록]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/5-create-sitemap</link>
+            <guid>/blog/nextjs-blog/5-create-sitemap</guid>
+            <pubDate>Tue, 15 Nov 2022 22:24:41 GMT</pubDate>
+            <description><![CDATA[`next-sitemap` 라이브러리를 사용해서 쉽게 sitemap 만들고 검색엔진에 등록하자.]]></description>
+            <content:encoded><![CDATA[검색엔진에 노출되기 위해선 봇들에게 우리 블로그에 어떤 페이지가 있는지 알려줘야 합니다. ✨ next-sitemap 라이브러리를 통해서 모든 정적 페이지 정보가 담긴 `sitemap.xml`를 만들어 봅시다. sitemap 생성 ya...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>SEO</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 Google Analytics 연동하기]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/5-google-analytics</link>
+            <guid>/blog/nextjs-blog/5-google-analytics</guid>
+            <pubDate>Wed, 16 Nov 2022 12:15:23 GMT</pubDate>
+            <description><![CDATA[블로그에 Google Analytics v4를 심어주자!]]></description>
+            <content:encoded><![CDATA[✨ google analytics 2020년도에 공식 릴리즈된 web-based 사용자 행동 분석 서비스입니다. 사용자의 유입, 스크롤, 검색, 클릭 등 이벤트를 자도으로 수집해줍니다. 참고로 firebase analytics는 ap...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>typescript</category>
+            <category>GA</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 댓글 기능 추가하기 (feat. giscus)]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/6-comments</link>
+            <guid>/blog/nextjs-blog/6-comments</guid>
+            <pubDate>Sun, 13 Nov 2022 22:21:24 GMT</pubDate>
+            <description><![CDATA[💎 Giscus를 활용하여 Next.js 블로그에 댓글, 대댓글, 리액션을 달 수 있도록 해주자!]]></description>
+            <content:encoded><![CDATA[giscus utterances의 영감을 받아 만들어진 오픈소스입니다. 기존 Github Issue가 아닌 Github Discussion을 활용하여 댓글을 작성하는 것이 특징입니다. utterances의 장점(광고없음, 가벼움, g...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>giscus</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 Image Optimization]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/6-image-optimization</link>
+            <guid>/blog/nextjs-blog/6-image-optimization</guid>
+            <pubDate>Mon, 14 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Next.js static html에서 이미지를 기똥차게 사용해보자!]]></description>
+            <content:encoded><![CDATA[기본적으로 next/image를 활용하면 이미지를 최적화시킬 수 있습니다. 하지만 static-html-export 환경에서는 이를 제공해주지 않는다고 합니다. Custom Loader를 활용해야한다고 하는데 ~~갈 길이 보이지 않습...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>image</category>
+            <category>optimization</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 mdx에서 이미지 복붙하기 (feat. Paste Image)]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/6-images-use-in-vscode</link>
+            <guid>/blog/nextjs-blog/6-images-use-in-vscode</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[vscode markdown 파일에서 이미지를 기똥차게 사용해보자!]]></description>
+            <content:encoded><![CDATA[notion, velog로 글을 작성하다가 vscode로 작성하려다보니 이미지를 추가하는 것이 꽤나 번거롭습니다. 🥲 일일이 링크를 찾거나 생성해서 수작업으로 넣어줘야 했지요. 앞으로 글을 그대로 수작업으로 작성해야한다고 생각하면 ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>markdown</category>
+            <category>Paste Image</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 블로그 TOC 배너 만들기]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/6-toc</link>
+            <guid>/blog/nextjs-blog/6-toc</guid>
+            <pubDate>Sat, 19 Nov 2022 16:33:14 GMT</pubDate>
+            <description><![CDATA[목차를 만들자.]]></description>
+            <content:encoded><![CDATA[1. 배너 위치 산정하기 - absolute로 위치를 잡아주고 fixed로 스크롤에 고정되도록 한다. 2. Content에서 Toc 추출하기 3. slug 만들기 - tailwind에서는 라이브러리를 사용하고 있었다. - 한글도 파싱...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+            <category>Toc</category>
+        </item>
+        <item>
+            <title><![CDATA[블로그에 RSS, JSON Feed 추가하기]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/7-rss</link>
+            <guid>/blog/nextjs-blog/7-rss</guid>
+            <pubDate>Fri, 17 Mar 2023 17:37:20 GMT</pubDate>
+            <content:encoded><![CDATA[`RSS`와 `JSON Feed`는 웹사이트의 콘텐츠를 손쉽게 구독할 수 있게 해주는 기술이다. 모두 웹사이트의 업데이트를 손쉽게 확인하고, 원하는 콘텐츠를 효율적으로 모아볼 수 있는 기능을 제공한다. RSS (Really Simpl...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>rss</category>
+            <category>json feed</category>
+            <category>atom</category>
+            <category>xml</category>
+        </item>
+        <item>
+            <title><![CDATA[Next.js로 블로그 만들기]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog</link>
+            <guid>/blog/nextjs-blog</guid>
+            <pubDate>Fri, 11 Nov 2022 19:31:17 GMT</pubDate>
+            <description><![CDATA[100% 취향 반영, 내 손으로 직접 블로그를 만들어 보자!!]]></description>
+            <content:encoded><![CDATA[...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>null</category>
+        </item>
+        <item>
+            <title><![CDATA[기술 블로그를 만들 땐 무엇을 고려해야 하는가?]]></title>
+            <link>https://lavinoys.github.io/blog/nextjs-blog/why</link>
+            <guid>/blog/nextjs-blog/why</guid>
+            <pubDate>Fri, 11 Nov 2022 22:04:39 GMT</pubDate>
+            <description><![CDATA[블로그를 만들 때 어떤 것들을 고려해야 할까? 🤔]]></description>
+            <content:encoded><![CDATA[왜 블로그를 만들고 싶은가? > 글을 쓰는 목적이 무엇인가? 블로그를 시작하기 전에 반드시 이 질문에 스스로 명확한 답을 할 수 있어야 합니다. 목적에 따라 사용되는 도구가 달라지기 때문이죠. 단순히 `나를 위해 지식을 기록`할 땐 ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>blog</category>
+        </item>
+        <item>
+            <title><![CDATA[(gsap) Card Hover]]></title>
+            <link>https://lavinoys.github.io/snippets/animation/card-hover-gsap</link>
+            <guid>/snippets/animation/card-hover-gsap</guid>
+            <pubDate>Tue, 20 Dec 2022 23:32:05 GMT</pubDate>
+            <content:encoded><![CDATA[yarn add gsap import { gsap } from 'gsap'; import { useCallback, useState } from 'react'; export default function Test() { const c...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>react</category>
+            <category>css</category>
+            <category>gasp</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) backdrop]]></title>
+            <link>https://lavinoys.github.io/snippets/css/backdrop</link>
+            <guid>/snippets/css/backdrop</guid>
+            <pubDate>Tue, 31 Jan 2023 23:22:03 GMT</pubDate>
+            <content:encoded><![CDATA[현재 블로그에서 `command + k`를 눌렀을 때 보이는 `backdrop` 스타일입니다 😉 <div className="pointer-events-none fixed inset-0 h-full w-full bg-white/50...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+            <category>tailwindcss</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) font-face 적용]]></title>
+            <link>https://lavinoys.github.io/snippets/css/font-face</link>
+            <guid>/snippets/css/font-face</guid>
+            <pubDate>Tue, 06 Dec 2022 21:24:10 GMT</pubDate>
+            <content:encoded><![CDATA[stitches에서 font-face를 적용하려하는데 계속 실패를했다... 시키는 대로 했는데 말이다 🥲 webpack 관련 문제일까... 결국 css파일로 문제를 해결했다! webpack에서 말하는 폰트를 가져오는 법 module...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) input focus시 border 제거]]></title>
+            <link>https://lavinoys.github.io/snippets/css/input-focus</link>
+            <guid>/snippets/css/input-focus</guid>
+            <pubDate>Sat, 17 Dec 2022 18:29:43 GMT</pubDate>
+            <content:encoded><![CDATA[`input`이 포커스 될 시 스타일은 `outline` 속성이 활용된다. input:focus { outline: none; } <br /> `tailwind` <input className="focus:outline-none" /...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) svg 넣기]]></title>
+            <link>https://lavinoys.github.io/snippets/css/insert-svg</link>
+            <guid>/snippets/css/insert-svg</guid>
+            <pubDate>Fri, 25 Nov 2022 21:22:31 GMT</pubDate>
+            <content:encoded><![CDATA[기본적으로 `content` 속성에 url로 svg 이미지를 넣을 수 있다. test::before { content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) 특정 영역만 상위 클래스 영향 안 받기]]></title>
+            <link>https://lavinoys.github.io/snippets/css/no-dark</link>
+            <guid>/snippets/css/no-dark</guid>
+            <pubDate>Tue, 10 Jan 2023 19:30:18 GMT</pubDate>
+            <content:encoded><![CDATA[다크모드에서 특정 영역만 다크모드 스타일이 적용되지 않길 바랄 때가 있다. 해결 방법 `:not` `:where` `attribute selector` 3가지 문법을 조합하면 쉽게 적용할 수 있다. :not(:where(class~=...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+            <category>darkmode</category>
+        </item>
+        <item>
+            <title><![CDATA[(css) 노치 영역 대응]]></title>
+            <link>https://lavinoys.github.io/snippets/css/notch</link>
+            <guid>/snippets/css/notch</guid>
+            <pubDate>Thu, 09 Mar 2023 21:12:38 GMT</pubDate>
+            <content:encoded><![CDATA[아이폰 X부터 `노치(notch)`라는 영역이 생겼다. 그리고 가로모드가 우릴 미치게 만든다. !230309-213220 하지만 두려워 마라! 이를 쉽게 대응할 수 있다. 1. viewport-fit=cover <meta name="...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+            <category>notch</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) Notion Style Scrollbar]]></title>
+            <link>https://lavinoys.github.io/snippets/css/notion-scrollbar</link>
+            <guid>/snippets/css/notion-scrollbar</guid>
+            <pubDate>Fri, 27 Jan 2023 02:29:04 GMT</pubDate>
+            <content:encoded><![CDATA[Notion의 scrollbar 스타일 코드를 빼돌려보자! 라이트 모드 ::-webkit-scrollbar { width: 10px; height: 10px; } ::-webkit-scrollbar { background: trans...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) scroll bar 제거]]></title>
+            <link>https://lavinoys.github.io/snippets/css/remove-scrollbar</link>
+            <guid>/snippets/css/remove-scrollbar</guid>
+            <pubDate>Sat, 17 Dec 2022 21:46:47 GMT</pubDate>
+            <content:encoded><![CDATA[스크롤은 동작하지만 스크롤바를 숨기고 싶을 때가 있다. { -ms-overflow-style: none; / IE, Edge / scrollbar-width: none; / Firefox / } ::-webkit-scrollbar {...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(CSS) safari에서 drop-shadow가 짤리는 현상]]></title>
+            <link>https://lavinoys.github.io/snippets/css/safari-drop-shadow</link>
+            <guid>/snippets/css/safari-drop-shadow</guid>
+            <pubDate>Mon, 10 Oct 2022 16:20:26 GMT</pubDate>
+            <content:encoded><![CDATA[현상 style로 `drop-shadow`를 주입해줬지만 safari에서는 shadow가 짤린다. filter = 'drop-shadow(16px 16px 16px gray)'; 해결 방법 브라우저가 fileter가 변경될 수 있음을...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+            <category>troubleshooting</category>
+        </item>
+        <item>
+            <title><![CDATA[(css) text ellipsis]]></title>
+            <link>https://lavinoys.github.io/snippets/css/text-ellipsis</link>
+            <guid>/snippets/css/text-ellipsis</guid>
+            <pubDate>Thu, 09 Mar 2023 19:44:19 GMT</pubDate>
+            <content:encoded><![CDATA[텍스트 말줄임 처리 .ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-break: break-all; } `word-break: break...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>css</category>
+            <category>tailwindcss</category>
+            <category>ellipsis</category>
+            <category>line clamp</category>
+        </item>
+        <item>
+            <title><![CDATA[MAC에서 내 IP 확인하기]]></title>
+            <link>https://lavinoys.github.io/snippets/infra/my-ip</link>
+            <guid>/snippets/infra/my-ip</guid>
+            <pubDate>Wed, 15 Mar 2023 17:20:20 GMT</pubDate>
+            <content:encoded><![CDATA[방법 1 리눅스 네트워크 관리에 필요한 `ifconfig`를 활용해서 알아낼 수 있습니다. ifconfig grep netmask !230315-172311 `inet` 이란? 네트워크 인터페이스에 할당된 IP 주소를 추출한다. `v...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[(JS) 클립보드 복사하기]]></title>
+            <link>https://lavinoys.github.io/snippets/javascript/clipboard</link>
+            <guid>/snippets/javascript/clipboard</guid>
+            <pubDate>Mon, 19 Sep 2022 20:15:23 GMT</pubDate>
+            <content:encoded><![CDATA[export const copyClipboard = async (url = window.document.location.href) => { try { await navigator.clipboard.writeText(url); aler...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>javascript</category>
+            <category>clipboard</category>
+        </item>
+        <item>
+            <title><![CDATA[(JS) console.log 추가 기능]]></title>
+            <link>https://lavinoys.github.io/snippets/javascript/console</link>
+            <guid>/snippets/javascript/console</guid>
+            <pubDate>Fri, 23 Sep 2022 20:09:57 GMT</pubDate>
+            <content:encoded><![CDATA[CSS style console.log('%cfatfish', 'color: red;'); const getLogStyle = (code) => { const style = 'padding: 4px 8px;'; if (code >= ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>javascript</category>
+        </item>
+        <item>
+            <title><![CDATA[(JS) FormData로 submit 다루기]]></title>
+            <link>https://lavinoys.github.io/snippets/javascript/form-data</link>
+            <guid>/snippets/javascript/form-data</guid>
+            <pubDate>Tue, 06 Dec 2022 20:00:26 GMT</pubDate>
+            <description><![CDATA[form event를 쉽게 다룰 수 있습니다.]]></description>
+            <content:encoded><![CDATA[기본적인 활용법 const submitHandle = (e) => { e.preventDefault(); const formData = new FormData(e.target); const formDataObj = Object.fro...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>javascript</category>
+        </item>
+        <item>
+            <title><![CDATA[(JS) input 클릭시 focus 안되도록]]></title>
+            <link>https://lavinoys.github.io/snippets/javascript/prevent-input-focus-on-click</link>
+            <guid>/snippets/javascript/prevent-input-focus-on-click</guid>
+            <pubDate>Mon, 16 Jan 2023 13:27:17 GMT</pubDate>
+            <content:encoded><![CDATA[input element를 클릭시 input에 focus가 안되고 동작을 커스터마이징하고 싶을 때가 있다. `event.preventDefault()`로 input 클릭시 디폴트로 이어지는 동작을 제어할 수 있다. 주의할 것은 `cl...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>javascript</category>
+            <category>DOM</category>
+            <category>preventDefault</category>
+        </item>
+        <item>
+            <title><![CDATA[(JS) .txt File 만들기]]></title>
+            <link>https://lavinoys.github.io/snippets/javascript/txt-file</link>
+            <guid>/snippets/javascript/txt-file</guid>
+            <pubDate>Sat, 03 Sep 2022 19:14:23 GMT</pubDate>
+            <content:encoded><![CDATA[blob을 활용 const blob = new Blob(JSON.stringify(data), { type: 'text/plain' }); const textFile = window.URL.createObjectURL(blob); w...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>javascript</category>
+        </item>
+        <item>
+            <title><![CDATA[(JS) regex로 버전 추출하기]]></title>
+            <link>https://lavinoys.github.io/snippets/javascript/version-regex</link>
+            <guid>/snippets/javascript/version-regex</guid>
+            <pubDate>Thu, 30 Jun 2022 20:12:44 GMT</pubDate>
+            <content:encoded><![CDATA[const REGEX = /\d+(\.\d+)+/gi; console.log(''.match(REGEX)); 네이버 userAgent에서 네이버 버전 추출하기 const NAVER_USERAGENT_REGEX = /\d+(\.\d+)...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>javascript</category>
+            <category>regex</category>
+        </item>
+        <item>
+            <title><![CDATA[(ESLint) sort import]]></title>
+            <link>https://lavinoys.github.io/snippets/lint/eslint-sort-import</link>
+            <guid>/snippets/lint/eslint-sort-import</guid>
+            <pubDate>Wed, 11 Jan 2023 18:57:07 GMT</pubDate>
+            <content:encoded><![CDATA[eslint sort-imports 설정은 `autofix`를 제공해주지 않는다. 크게 2가지 방법으로 해결할 수 있다. simple-import-sort plugin을 통해서 설정이 간편하다. yarn add -D eslint-pl...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>eslint</category>
+            <category>import</category>
+        </item>
+        <item>
+            <title><![CDATA[dayjs]]></title>
+            <link>https://lavinoys.github.io/snippets/next.js/dayjs</link>
+            <guid>/snippets/next.js/dayjs</guid>
+            <pubDate>Fri, 03 Feb 2023 12:25:11 GMT</pubDate>
+            <content:encoded><![CDATA[`moment`보다 가볍고 쉽게 날짜를 다룰 수 있습니다. MINIFIED + GZIPPED 기준으로 2.9KB(dayjs) vs 72KB(moment) 이면 차이가 어마무시합니다. - `chaining` 방식으로 날짜 다루기 편함 ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>date</category>
+        </item>
+        <item>
+            <title><![CDATA[(Next.js) document fonts]]></title>
+            <link>https://lavinoys.github.io/snippets/next.js/document-fonts</link>
+            <guid>/snippets/next.js/document-fonts</guid>
+            <pubDate>Mon, 19 Dec 2022 22:06:32 GMT</pubDate>
+            <content:encoded><![CDATA[`Next.js` `_document.tsx`에서 `link`를 통해서 폰트를 적용하는 방법이다. 적절한 폰트를 찾는다. https://fonts.google.com/ <br /> <Head> <link rel="preconnect"...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>css</category>
+            <category>tailwindcss</category>
+        </item>
+        <item>
+            <title><![CDATA[(Next.js) @next/fonts]]></title>
+            <link>https://lavinoys.github.io/snippets/next.js/next-fonts</link>
+            <guid>/snippets/next.js/next-fonts</guid>
+            <pubDate>Tue, 07 Mar 2023 21:29:20 GMT</pubDate>
+            <content:encoded><![CDATA[`@next/font`를 지원하는 폰트, 로컬에 있는 폰트를 적용해보자. `variable fonts`를 사용하는 것이 성능상 베스트이지만, 아직 한글 폰트가 없다는 사실... 에서 마음에 드는 폰트를 다운 받아서 사용해보자. yar...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>css</category>
+            <category>tailwindcss</category>
+        </item>
+        <item>
+            <title><![CDATA[(Next.js) nprogress]]></title>
+            <link>https://lavinoys.github.io/snippets/next.js/nprogress</link>
+            <guid>/snippets/next.js/nprogress</guid>
+            <pubDate>Tue, 06 Dec 2022 21:28:25 GMT</pubDate>
+            <content:encoded><![CDATA[✨nprogress를 활용하여 route가 변경될시 로딩 UI를 표시할 수 있습니다. yarn add nprogress yarn add -D @types/nprogress <br /> useEffect(() => { const han...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+        </item>
+        <item>
+            <title><![CDATA[(Next.js) sitemap.xml]]></title>
+            <link>https://lavinoys.github.io/snippets/next.js/sitemap</link>
+            <guid>/snippets/next.js/sitemap</guid>
+            <pubDate>Tue, 27 Dec 2022 21:15:46 GMT</pubDate>
+            <description><![CDATA[직접 sitemap을 만들어서 배포시키자.]]></description>
+            <content:encoded><![CDATA[sitemap의 원리는 간단하기에 충분히 직접 만들 수 있다. 검색 엔진에 노출시킬 페이지만 잘 명시해주면 된다. sitemap.xml 생성하는 script 구현 핵심은 `fs.promises.writeFile`를 통해서 파일을 생성...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>sitemap</category>
+            <category>fs</category>
+        </item>
+        <item>
+            <title><![CDATA[(React) Icons]]></title>
+            <link>https://lavinoys.github.io/snippets/react/Icons</link>
+            <guid>/snippets/react/Icons</guid>
+            <pubDate>Mon, 30 Jan 2023 20:17:03 GMT</pubDate>
+            <content:encoded><![CDATA[아이콘마다 `import`해오는 건 코드가 더러워지게 된다. 모든 `svg` 아이콘을 `Icons`에 모아서 쓰자! import { Icons } from '~/components/Icons'; <Icons.logo className...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>react</category>
+            <category>typescript</category>
+        </item>
+        <item>
+            <title><![CDATA[(React) useConfettiful]]></title>
+            <link>https://lavinoys.github.io/snippets/react/confettiful</link>
+            <guid>/snippets/react/confettiful</guid>
+            <pubDate>Thu, 29 Dec 2022 00:39:41 GMT</pubDate>
+            <content:encoded><![CDATA[`hook` 하나로 모든 것을 해결했다! import { useEffect, useState } from 'react'; / 초당 생성할 confetti 개수 / const confettiFrequency = 10; / confett...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>react</category>
+            <category>typescript</category>
+            <category>hook</category>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(React) Lodash Debounce]]></title>
+            <link>https://lavinoys.github.io/snippets/react/lodash-debounce</link>
+            <guid>/snippets/react/lodash-debounce</guid>
+            <pubDate>Tue, 13 Dec 2022 21:31:23 GMT</pubDate>
+            <content:encoded><![CDATA[`javascript` yarn add lodash.debounce const App = () => { const searchValue, setSearchValue = useState(''); const searchHandler = ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>react</category>
+            <category>javascript</category>
+            <category>typescript</category>
+            <category>debounce</category>
+        </item>
+        <item>
+            <title><![CDATA[(React) Observer Transition]]></title>
+            <link>https://lavinoys.github.io/snippets/react/observer-transition</link>
+            <guid>/snippets/react/observer-transition</guid>
+            <pubDate>Sat, 10 Dec 2022 18:10:44 GMT</pubDate>
+            <content:encoded><![CDATA[const useObserver = () => { const rootRef = useRef<HTMLDivElement>(null); useEffect(() => { const $toc = document.querySelector('t...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>react</category>
+        </item>
+        <item>
+            <title><![CDATA[react-hot-toast]]></title>
+            <link>https://lavinoys.github.io/snippets/react/react-hot-toast</link>
+            <guid>/snippets/react/react-hot-toast</guid>
+            <pubDate>Fri, 27 Jan 2023 21:43:35 GMT</pubDate>
+            <content:encoded><![CDATA[✨ react-hot-toast 🔥 Hot by default 🔩 Easily Customizable ⏳ Promise API - Automatic loader from a promise 🕊 Lightweight - less t...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+        </item>
+        <item>
+            <title><![CDATA[(React) scroll progress bar]]></title>
+            <link>https://lavinoys.github.io/snippets/react/reading-progress-bar</link>
+            <guid>/snippets/react/reading-progress-bar</guid>
+            <pubDate>Sat, 17 Dec 2022 19:52:10 GMT</pubDate>
+            <content:encoded><![CDATA[`Next.js` 기준으로 Styled JSX를 활용하여 구현했다. import { useEffect, useState } from 'react'; export default function ReadingProgressBar() { ...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>next.js</category>
+            <category>react</category>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(React) useMediaQuery]]></title>
+            <link>https://lavinoys.github.io/snippets/react/use-media-query</link>
+            <guid>/snippets/react/use-media-query</guid>
+            <pubDate>Sat, 14 Jan 2023 01:15:43 GMT</pubDate>
+            <content:encoded><![CDATA[React / Next.js 런타임에서 MediaQuery를 충족시켰는지 여부를 알고 싶다. import { useCallback, useEffect, useState } from 'react'; export const useMedi...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>react</category>
+            <category>typescript</category>
+            <category>hook</category>
+            <category>css</category>
+        </item>
+        <item>
+            <title><![CDATA[(TS) Type에서 Promise 제거하기]]></title>
+            <link>https://lavinoys.github.io/snippets/typescript/remove-promise</link>
+            <guid>/snippets/typescript/remove-promise</guid>
+            <pubDate>Fri, 30 Dec 2022 23:51:35 GMT</pubDate>
+            <content:encoded><![CDATA[`Awaited` 문법을 통해서 Promise 타입을 벗겨낼 수 있다. // A = string type A = Awaited<Promise<string>>; // B = number type B = Awaited<Promise<Pr...]]></content:encoded>
+            <author>mailto:devjay0530@gamil.com (Tom)</author>
+            <category>typescript</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1078 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "lavinoys blog",
+    "home_page_url": "https://lavinoys.github.io",
+    "feed_url": "https://lavinoys.github.io/json",
+    "description": "Test.",
+    "icon": "https://lavinoys.github.io/images/base.jpg",
+    "author": {
+        "name": "Tom",
+        "url": "https://lavinoys.github.io"
+    },
+    "items": [
+        {
+            "id": "/blog/2022/css-in-js",
+            "content_html": "들어가면서 이 글의 목적 - 다양한 CSS-in-JS 라이브러리가 있는데 이들은 어떤 차이점이 있을까? - 더 나아가 어떤 상황에서 어떤 라이브러리를 사용하면 좋을까? <br /> CSS-in-JS가 대세인 이유 - 중복되지 않는 c...",
+            "url": "https://lavinoys.github.io/blog/2022/css-in-js",
+            "title": "CSS-in-JS 라이브러리들에 대한 고찰",
+            "summary": "다양한 CSS-in-JS 라이브러리가 있는데 이들은 어떤 차이점이 있을까? 더 나아가 어떤 상황에서 어떤 라이브러리를 사용하면 좋을까? 🍀",
+            "date_modified": "2022-02-11T16:31:47.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "styled-components",
+                "emotion",
+                "linaria",
+                "vanilla-extract",
+                "stitches"
+            ]
+        },
+        {
+            "id": "/blog/2022/eslint-parse-error-import",
+            "content_html": "vscode에서 개발 중 `Parsing error: The keyword 'import' is reserved`를 마주칠 때가 있다. `typescript` 기반으로 개발을 하는데 `javascript`으로 된 설정 파일에서 에러를...",
+            "url": "https://lavinoys.github.io/blog/2022/eslint-parse-error-import",
+            "title": "(ESLint) Parsing error: The keyword 'import' is reserved",
+            "date_modified": "2022-12-27T19:56:23.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "troubleshooting",
+                "eslint"
+            ]
+        },
+        {
+            "id": "/blog/2022/example",
+            "content_html": "h2 Heading h3 Heading h3 Bold Heading h4 Heading \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i...",
+            "url": "https://lavinoys.github.io/blog/2022/example",
+            "title": "Markdown Template Example",
+            "summary": "마크다운 문법 사용 템플릿",
+            "date_modified": "2022-11-17T21:12:24.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "markdown"
+            ]
+        },
+        {
+            "id": "/blog/2022/google-adsense",
+            "content_html": "수익성 이해하기 수익은 월별 페이지 조회수 50,000부터 시작합니다. 따라서 그 이하의 조회수는 수익이 발생되지 않겠지요 🥲 Google 애드센스 계산기를 통해서 연수익을 예상할 수 있습니다. 아시아 기준 인터넷 관련 콘텐츠에서 ...",
+            "url": "https://lavinoys.github.io/blog/2022/google-adsense",
+            "title": "Next.js에 구글 애드센스 적용하기",
+            "date_modified": "2022-12-04T17:00:11.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "google adsense"
+            ]
+        },
+        {
+            "id": "/blog/2022/styled-components-vs-emotion",
+            "content_html": "React에서는 보통 CSS-in-JS을 통해 스타일 작업을 진행한다. 그중에서 styled-components, emotion이 가장 유명하고 많이 사용된다. 하지만 도대체 차이가 뭘까? <br /> <br /> <br /> 제공하...",
+            "url": "https://lavinoys.github.io/blog/2022/styled-components-vs-emotion",
+            "title": "styled-components 과 emotion, 도대체 차이가 뭔가?",
+            "summary": "styled-components vs emotion 💥 도대체 차이가 뭘까??",
+            "date_modified": "2022-02-10T16:30:09.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "styled-components",
+                "emotion"
+            ]
+        },
+        {
+            "id": "/blog/2023/2023-frontend-library",
+            "content_html": "세상에는 좋은 라이브러리가 정말 많다! 100% 무료인 라이브러리들을 정리해봤다. 전부 써본 것은 아니고 필요할 때 써보면 좋겠다 싶은 것들만 정리했습니다. UI Design System `material-ui` `react` &nb...",
+            "url": "https://lavinoys.github.io/blog/2023/2023-frontend-library",
+            "title": "프론트엔드 개발자 도구함",
+            "summary": "직접 개발말고, 좋은 라이브러리를 씁시다!",
+            "date_modified": "2023-01-30T14:08:18.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "라이브러리"
+            ]
+        },
+        {
+            "id": "/blog/2023/bundlers",
+            "content_html": "번들러 란? 간단하게 설명하자면 여러개의 파일들을 하나의 파일로 묶어주는 도구입니다. 프론트엔드에서 번들러의 역사가 길다면 길고 짧다고 하면 짧다고할 수 있을 것 같습니다. 지금은 너무나도 당연하게 `webpack` `vite` 같은...",
+            "url": "https://lavinoys.github.io/blog/2023/bundlers",
+            "title": "차세대 번들러 비교 및 분석 (feat. webpack, rollup, esbuild, vite)",
+            "summary": "번들러가 왜 필요하고 어떻게 발전되고 가고 있을까?",
+            "date_modified": "2023-02-21T13:19:01.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "bundler"
+            ]
+        },
+        {
+            "id": "/blog/2023/debug-in-android-web",
+            "content_html": "안드로이드에서 브라우저 디버깅을 해야할 때가 있다. MAC 환경에서 어떻게 디버깅할 수 있는지 한번 정리해보자. 환경 세팅 brew install --cask android-platform-tools 안드로이드 개발자모드 설정 갤럭시...",
+            "url": "https://lavinoys.github.io/blog/2023/debug-in-android-web",
+            "title": "안드로이드에서 브라우저 디버깅하는 방법 (feat. 크롬, 삼성 브라우저)",
+            "date_modified": "2023-01-26T13:12:37.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "android",
+                "debug"
+            ]
+        },
+        {
+            "id": "/blog/dev-setting/eslint",
+            "content_html": "> 사심 ❤️을 넘치게 담아서 기록한 eslint 설정입니다. 사용 환경 - typescript - tailwindcss yarn add -D eslint @typescript-eslint/parser yarn add -D eslin...",
+            "url": "https://lavinoys.github.io/blog/dev-setting/eslint",
+            "title": "내가 기본적으로 사용하는 ESLint 설정",
+            "date_modified": "2023-02-18T14:07:14.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "eslint"
+            ]
+        },
+        {
+            "id": "/blog/dev-setting",
+            "content_html": "...",
+            "url": "https://lavinoys.github.io/blog/dev-setting",
+            "title": "프론트엔드 개발환경 세팅",
+            "summary": "안 해본 사람은 있어도 한 번만 하는 사람은 없다.",
+            "date_modified": "2023-01-28T12:28:43.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "development settings"
+            ]
+        },
+        {
+            "id": "/blog/dev-setting/m1-muti-terminal-architecture",
+            "content_html": "모듈을 다운 받다가 아래 에러를 마주쳤다.. Error: Your platform and architecture (Darwin-arm64) is unsupported. Intel 프로세서 아키텍처는 x86_64 이고 Apple Sil...",
+            "url": "https://lavinoys.github.io/blog/dev-setting/m1-muti-terminal-architecture",
+            "title": "M1 터미널 아키텍처 설정 (arm64, x86_64)",
+            "date_modified": "2022-04-27T16:52:28.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "infra"
+            ]
+        },
+        {
+            "id": "/blog/dev-setting/preact",
+            "content_html": "preact란? 가볍고 빠르다. 그 핵심은 `Preact does not implement a synthetic event system`이라고 한다. 가능한 `Virtual DOM` 추상화 수준을 낮춰서 더욱 직접적으로 `DOM`을 ...",
+            "url": "https://lavinoys.github.io/blog/dev-setting/preact",
+            "title": "preact을 시작해보자. vite와 함께.",
+            "date_modified": "2023-03-13T17:52:39.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "preact",
+                "vite",
+                "typescript"
+            ]
+        },
+        {
+            "id": "/blog/dev-setting/tailwindcss",
+            "content_html": "기본 설정 yarn add -D tailwindcss postcss autoprefixer npx tailwindcss init -p {4} / @type {import('tailwindcss').Config} / module.exp...",
+            "url": "https://lavinoys.github.io/blog/dev-setting/tailwindcss",
+            "title": "tailwindcss 완벽 세팅 (feat Next.js)",
+            "date_modified": "2023-01-31T20:15:20.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "tailwindcss"
+            ]
+        },
+        {
+            "id": "/blog/dev-setting/vscode-eslint-prettier",
+            "content_html": "repository 단위로 IDE 설정을 강제하고 싶을 때가 있다. 사람마다 제각각 선호하는 설정이 있고 프로젝트 환경에 따라 설정이 달라져 프로젝트마다 이를 다르게 설정해야 한다. `.vscode` 디랙토리에 설정을 명시하여 이를 ...",
+            "url": "https://lavinoys.github.io/blog/dev-setting/vscode-eslint-prettier",
+            "title": "레포 단위로 VSCode 설정 적용하기",
+            "date_modified": "2023-01-26T17:23:10.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "vscode",
+                "eslint",
+                "prettier"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master/1-drag-event",
+            "content_html": "drag관련해서 좋은 라이브러리들이 있지만 순수하게 구현해보고 싶다. 아래의 스펙으로 구현을 시작해보자 🏄🏻‍♂️ - `NextJS` `React` - `Typescript` - `tailwindcss` TL;DR > `mouse...",
+            "url": "https://lavinoys.github.io/blog/dnd-master/1-drag-event",
+            "title": "Drag 이벤트 뽀개기",
+            "summary": "라이브러리 없이 React에서 element를 커서로 움직이게 하자!!!",
+            "date_modified": "2022-10-01T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "DOM"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master/2-drag-touch-event",
+            "content_html": "이전 포스트에서 만든 유틸함수에 큰 문제점이 있다. 바로 모바일 기기에서 동작하지 않다는 것이다. <p align=\"center\"> <img src=\"https://media.tenor.com/e5eV8VVfUXQAAAAM/throw...",
+            "url": "https://lavinoys.github.io/blog/dnd-master/2-drag-touch-event",
+            "title": "Drag Touch 뽀개기",
+            "summary": "라이브러리 없이 React에서 element를 터치로 움직이게 하자!!!",
+            "date_modified": "2022-10-02T15:00:30.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "DOM"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master/3-drag-resize",
+            "content_html": "이전 포스트에서 연구한 drag 이벤트를 활용하여 Resize 기능을 구현해보자. TL;DR > getBoundingClientRect를 활용하여 엘리먼트의 크기 정보를 얻는다. > Drag 거리에 맞춰 엘리먼트 크기를 조정해준다. ...",
+            "url": "https://lavinoys.github.io/blog/dnd-master/3-drag-resize",
+            "title": "Drag Resize 뽀개기",
+            "summary": "라이브러리 없이 React에서 element 크기를 drag해서 조정하자!!!",
+            "date_modified": "2022-10-03T15:01:48.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "DOM"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master/4-drag-carousel",
+            "content_html": "TL;DR > 캐러셀을 일정 거리이상 drag시키면 화면을 넘긴다. 기본 원리 — Carousel 동작 여러 방식으로 Carousel를 구현할 수 있지만 아래와 같은 형태로 간편하게 마크업을 짜자. css는 편의상 tailwindcs...",
+            "url": "https://lavinoys.github.io/blog/dnd-master/4-drag-carousel",
+            "title": "Drag Carousel 뽀개기",
+            "summary": "라이브러리 없이 React에서 터치로 캐러셀을 만들어 보자!!!",
+            "date_modified": "2022-10-08T15:02:55.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "DOM"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master/5-drag-and-drop",
+            "content_html": "드디어, 대망의 DND 이벤트를 구현해보도록 하자! 칸반보드, 목차 편집 기능이 실용적이지만 재미삼아서 먼저 퍼즐 맞추기 게임 느낌의 이벤트를 먼저 만들어 보자. ~~어쩌다보니 글이 좀 깁니다...~~ TL;DR > cloneNode...",
+            "url": "https://lavinoys.github.io/blog/dnd-master/5-drag-and-drop",
+            "title": "DND 이벤트 뽀개기",
+            "summary": "라이브러리 없이 React에서 Drag and Drop 이벤트를 구현해보자!!!",
+            "date_modified": "2022-10-10T15:03:21.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "DOM"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master/6-react-beautiful-dnd",
+            "content_html": "다들 한번씩은 만들어보는 TODO 리스트. Drag and Drop으로 구현해보는 것이 FE 개발자로서의 로망 아닌가 싶다. 그렇다면 한번 뽀개보도록 하자! 우선 라이브러리를 통해서 어떻게 구현하고 어떻게 동작하는지를 알고 라이브러리...",
+            "url": "https://lavinoys.github.io/blog/dnd-master/6-react-beautiful-dnd",
+            "title": "react-beautiful-dnd로 TODO 뽀개기",
+            "summary": "라이브러리를 활용해서 React에서 Drag and Drop TODO 칸반 보드를 구현해보자!!!",
+            "date_modified": "2022-10-16T15:05:38.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "react-beautiful-dnd"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master/7-drag-and-drop-todo",
+            "content_html": "대망으로 라이브러리 도움 없이 Drag and Drop이 지원되는 TODO 리스트를 만들어 보자! 지난 포스트에 이어서 React에 Vanilla 스크립트를 붙여서 기능을 구현해봤다. 작업 후기에 대해 먼저 나누자면,, 왠만하면 라이...",
+            "url": "https://lavinoys.github.io/blog/dnd-master/7-drag-and-drop-todo",
+            "title": "라이브러리없이 DND TODO 칸반보드 만들기",
+            "summary": "라이브러리 없이 React에서 Drag and Drop TODO 칸반 보드를 구현해보자!!!",
+            "date_modified": "2022-10-25T15:07:04.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "DOM"
+            ]
+        },
+        {
+            "id": "/blog/dnd-master",
+            "content_html": "...",
+            "url": "https://lavinoys.github.io/blog/dnd-master",
+            "title": "DND 마스터리",
+            "summary": "Drag and Drop 이벤트를 라이브러리 없이 구현해서 활용해봅니다.",
+            "date_modified": "2022-10-01T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": []
+        },
+        {
+            "id": "/blog/nextjs-blog/1-boilerplate",
+            "content_html": "블로그를 만드는데 생각보다 고려해야할 사항이 많습니다. 어떤 레이아웃을 갖어야 할지, 기능을 어디까지 제공해줘야 할지, 리소스를 어떻게 관리할지... 그 중 SEO를 잘 처리하는 것이 가장 중요한 것 같습니다. 사람들이 검색을 통해서...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/1-boilerplate",
+            "title": "기술 블로그를 만들 때 고려해야 할 점",
+            "summary": "블로그를 만들 때 어떤 것들을 고려해야 할까? 🤔",
+            "date_modified": "2022-11-11T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/2-blog-list",
+            "content_html": "glob patterns를 활용하여 쉽게 파일을 탐색할 수 있습니다. 터미널에서 `ls src//.tsx`을 입력하면 어떤 결과가 나올지 쉽게 유추하실 수 있을 것입니다. 다양한 언어에서 이를 지원하고 있으며 NodeJS 환경에서도 ...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/2-blog-list",
+            "title": "Next.js 블로그 글 페이지 만들기",
+            "summary": "glob를 활용하여 디랙토리 기반으로 페이지들을 생성해보자 🤔",
+            "date_modified": "2022-11-11T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "glob"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/2-blog-listInfo",
+            "content_html": "다양한 플랫폼을 참고해보면 글 리스트에서 다양한 데이터가 첨부되어 있습니다. !230109-010815 - 글 제목 - 글 설명 - 글 작성 시간 - 태그 - ... 사용하게 될 라이브러리 소개 yarn add dayjs yarn a...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/2-blog-listInfo",
+            "title": "Next.js 블로그 글의 추가 정보 파싱하기",
+            "summary": "gray-matter, reading-time 등을 활용하여 글에 대한 추가 정보를 알아내자.",
+            "date_modified": "2022-11-11T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/3-mdx-plugin",
+            "content_html": "기본 사용법 ✨ next-mdx-remote를 활용하여 markdown파일을 이쁜 HTML 코드로 변환해줍니다. 추가로 markdown 파일에서 React 컴포넌트를 사용할 수 있는 이점이 있습니다. yarn add next-mdx-...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/3-mdx-plugin",
+            "title": "Next.js mdx plugin",
+            "summary": "`next-mdx-remote`에서 플로그인으로 이쁜 결과물을 만들자.",
+            "date_modified": "2022-11-11T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/4-deploy",
+            "content_html": "레포 준비 `github pages`에 배포할 것익기 때문에 공식 문서 가이드에 따라 진행하면 됩니다. 아래 사항들을 주의하면 됩니다. 1. 기본적으로 github `username` 기반으로 도메인 하위에 생성된다. ex `lavi...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/4-deploy",
+            "title": "Next.js 블로그 Github Pages에 자동 배포하기",
+            "summary": "Github Action을 활용하여 자동으로 Github Pages에 배포되도록 하자.",
+            "date_modified": "2022-11-12T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "github action",
+                "github pages"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/5-create-sitemap",
+            "content_html": "검색엔진에 노출되기 위해선 봇들에게 우리 블로그에 어떤 페이지가 있는지 알려줘야 합니다. ✨ next-sitemap 라이브러리를 통해서 모든 정적 페이지 정보가 담긴 `sitemap.xml`를 만들어 봅시다. sitemap 생성 ya...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/5-create-sitemap",
+            "title": "Next.js 블로그 sitemap 생성, 검색엔진 등록",
+            "summary": "`next-sitemap` 라이브러리를 사용해서 쉽게 sitemap 만들고 검색엔진에 등록하자.",
+            "date_modified": "2022-11-15T22:24:41.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "SEO"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/5-google-analytics",
+            "content_html": "✨ google analytics 2020년도에 공식 릴리즈된 web-based 사용자 행동 분석 서비스입니다. 사용자의 유입, 스크롤, 검색, 클릭 등 이벤트를 자도으로 수집해줍니다. 참고로 firebase analytics는 ap...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/5-google-analytics",
+            "title": "Next.js 블로그 Google Analytics 연동하기",
+            "summary": "블로그에 Google Analytics v4를 심어주자!",
+            "date_modified": "2022-11-16T12:15:23.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "typescript",
+                "GA"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/6-comments",
+            "content_html": "giscus utterances의 영감을 받아 만들어진 오픈소스입니다. 기존 Github Issue가 아닌 Github Discussion을 활용하여 댓글을 작성하는 것이 특징입니다. utterances의 장점(광고없음, 가벼움, g...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/6-comments",
+            "title": "Next.js 블로그 댓글 기능 추가하기 (feat. giscus)",
+            "summary": "💎 Giscus를 활용하여 Next.js 블로그에 댓글, 대댓글, 리액션을 달 수 있도록 해주자!",
+            "date_modified": "2022-11-13T22:21:24.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "giscus"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/6-image-optimization",
+            "content_html": "기본적으로 next/image를 활용하면 이미지를 최적화시킬 수 있습니다. 하지만 static-html-export 환경에서는 이를 제공해주지 않는다고 합니다. Custom Loader를 활용해야한다고 하는데 ~~갈 길이 보이지 않습...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/6-image-optimization",
+            "title": "Next.js 블로그 Image Optimization",
+            "summary": "Next.js static html에서 이미지를 기똥차게 사용해보자!",
+            "date_modified": "2022-11-14T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "image",
+                "optimization"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/6-images-use-in-vscode",
+            "content_html": "notion, velog로 글을 작성하다가 vscode로 작성하려다보니 이미지를 추가하는 것이 꽤나 번거롭습니다. 🥲 일일이 링크를 찾거나 생성해서 수작업으로 넣어줘야 했지요. 앞으로 글을 그대로 수작업으로 작성해야한다고 생각하면 ...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/6-images-use-in-vscode",
+            "title": "Next.js 블로그 mdx에서 이미지 복붙하기 (feat. Paste Image)",
+            "summary": "vscode markdown 파일에서 이미지를 기똥차게 사용해보자!",
+            "date_modified": "2022-11-15T00:00:00.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "markdown",
+                "Paste Image"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/6-toc",
+            "content_html": "1. 배너 위치 산정하기 - absolute로 위치를 잡아주고 fixed로 스크롤에 고정되도록 한다. 2. Content에서 Toc 추출하기 3. slug 만들기 - tailwind에서는 라이브러리를 사용하고 있었다. - 한글도 파싱...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/6-toc",
+            "title": "Next.js 블로그 TOC 배너 만들기",
+            "summary": "목차를 만들자.",
+            "date_modified": "2022-11-19T16:33:14.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog",
+                "Toc"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog/7-rss",
+            "content_html": "`RSS`와 `JSON Feed`는 웹사이트의 콘텐츠를 손쉽게 구독할 수 있게 해주는 기술이다. 모두 웹사이트의 업데이트를 손쉽게 확인하고, 원하는 콘텐츠를 효율적으로 모아볼 수 있는 기능을 제공한다. RSS (Really Simpl...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/7-rss",
+            "title": "블로그에 RSS, JSON Feed 추가하기",
+            "date_modified": "2023-03-17T17:37:20.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "rss",
+                "json feed",
+                "atom",
+                "xml"
+            ]
+        },
+        {
+            "id": "/blog/nextjs-blog",
+            "content_html": "...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog",
+            "title": "Next.js로 블로그 만들기",
+            "summary": "100% 취향 반영, 내 손으로 직접 블로그를 만들어 보자!!",
+            "date_modified": "2022-11-11T19:31:17.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": []
+        },
+        {
+            "id": "/blog/nextjs-blog/why",
+            "content_html": "왜 블로그를 만들고 싶은가? > 글을 쓰는 목적이 무엇인가? 블로그를 시작하기 전에 반드시 이 질문에 스스로 명확한 답을 할 수 있어야 합니다. 목적에 따라 사용되는 도구가 달라지기 때문이죠. 단순히 `나를 위해 지식을 기록`할 땐 ...",
+            "url": "https://lavinoys.github.io/blog/nextjs-blog/why",
+            "title": "기술 블로그를 만들 땐 무엇을 고려해야 하는가?",
+            "summary": "블로그를 만들 때 어떤 것들을 고려해야 할까? 🤔",
+            "date_modified": "2022-11-11T22:04:39.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "blog"
+            ]
+        },
+        {
+            "id": "/snippets/animation/card-hover-gsap",
+            "content_html": "yarn add gsap import { gsap } from 'gsap'; import { useCallback, useState } from 'react'; export default function Test() { const c...",
+            "url": "https://lavinoys.github.io/snippets/animation/card-hover-gsap",
+            "title": "(gsap) Card Hover",
+            "date_modified": "2022-12-20T23:32:05.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "react",
+                "css",
+                "gasp"
+            ]
+        },
+        {
+            "id": "/snippets/css/backdrop",
+            "content_html": "현재 블로그에서 `command + k`를 눌렀을 때 보이는 `backdrop` 스타일입니다 😉 <div className=\"pointer-events-none fixed inset-0 h-full w-full bg-white/50...",
+            "url": "https://lavinoys.github.io/snippets/css/backdrop",
+            "title": "(CSS) backdrop",
+            "date_modified": "2023-01-31T23:22:03.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css",
+                "tailwindcss"
+            ]
+        },
+        {
+            "id": "/snippets/css/font-face",
+            "content_html": "stitches에서 font-face를 적용하려하는데 계속 실패를했다... 시키는 대로 했는데 말이다 🥲 webpack 관련 문제일까... 결국 css파일로 문제를 해결했다! webpack에서 말하는 폰트를 가져오는 법 module...",
+            "url": "https://lavinoys.github.io/snippets/css/font-face",
+            "title": "(CSS) font-face 적용",
+            "date_modified": "2022-12-06T21:24:10.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/css/input-focus",
+            "content_html": "`input`이 포커스 될 시 스타일은 `outline` 속성이 활용된다. input:focus { outline: none; } <br /> `tailwind` <input className=\"focus:outline-none\" /...",
+            "url": "https://lavinoys.github.io/snippets/css/input-focus",
+            "title": "(CSS) input focus시 border 제거",
+            "date_modified": "2022-12-17T18:29:43.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/css/insert-svg",
+            "content_html": "기본적으로 `content` 속성에 url로 svg 이미지를 넣을 수 있다. test::before { content: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv...",
+            "url": "https://lavinoys.github.io/snippets/css/insert-svg",
+            "title": "(CSS) svg 넣기",
+            "date_modified": "2022-11-25T21:22:31.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/css/no-dark",
+            "content_html": "다크모드에서 특정 영역만 다크모드 스타일이 적용되지 않길 바랄 때가 있다. 해결 방법 `:not` `:where` `attribute selector` 3가지 문법을 조합하면 쉽게 적용할 수 있다. :not(:where(class~=...",
+            "url": "https://lavinoys.github.io/snippets/css/no-dark",
+            "title": "(CSS) 특정 영역만 상위 클래스 영향 안 받기",
+            "date_modified": "2023-01-10T19:30:18.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css",
+                "darkmode"
+            ]
+        },
+        {
+            "id": "/snippets/css/notch",
+            "content_html": "아이폰 X부터 `노치(notch)`라는 영역이 생겼다. 그리고 가로모드가 우릴 미치게 만든다. !230309-213220 하지만 두려워 마라! 이를 쉽게 대응할 수 있다. 1. viewport-fit=cover <meta name=\"...",
+            "url": "https://lavinoys.github.io/snippets/css/notch",
+            "title": "(css) 노치 영역 대응",
+            "date_modified": "2023-03-09T21:12:38.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css",
+                "notch"
+            ]
+        },
+        {
+            "id": "/snippets/css/notion-scrollbar",
+            "content_html": "Notion의 scrollbar 스타일 코드를 빼돌려보자! 라이트 모드 ::-webkit-scrollbar { width: 10px; height: 10px; } ::-webkit-scrollbar { background: trans...",
+            "url": "https://lavinoys.github.io/snippets/css/notion-scrollbar",
+            "title": "(CSS) Notion Style Scrollbar",
+            "date_modified": "2023-01-27T02:29:04.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/css/remove-scrollbar",
+            "content_html": "스크롤은 동작하지만 스크롤바를 숨기고 싶을 때가 있다. { -ms-overflow-style: none; / IE, Edge / scrollbar-width: none; / Firefox / } ::-webkit-scrollbar {...",
+            "url": "https://lavinoys.github.io/snippets/css/remove-scrollbar",
+            "title": "(CSS) scroll bar 제거",
+            "date_modified": "2022-12-17T21:46:47.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/css/safari-drop-shadow",
+            "content_html": "현상 style로 `drop-shadow`를 주입해줬지만 safari에서는 shadow가 짤린다. filter = 'drop-shadow(16px 16px 16px gray)'; 해결 방법 브라우저가 fileter가 변경될 수 있음을...",
+            "url": "https://lavinoys.github.io/snippets/css/safari-drop-shadow",
+            "title": "(CSS) safari에서 drop-shadow가 짤리는 현상",
+            "date_modified": "2022-10-10T16:20:26.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css",
+                "troubleshooting"
+            ]
+        },
+        {
+            "id": "/snippets/css/text-ellipsis",
+            "content_html": "텍스트 말줄임 처리 .ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-break: break-all; } `word-break: break...",
+            "url": "https://lavinoys.github.io/snippets/css/text-ellipsis",
+            "title": "(css) text ellipsis",
+            "date_modified": "2023-03-09T19:44:19.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "css",
+                "tailwindcss",
+                "ellipsis",
+                "line clamp"
+            ]
+        },
+        {
+            "id": "/snippets/infra/my-ip",
+            "content_html": "방법 1 리눅스 네트워크 관리에 필요한 `ifconfig`를 활용해서 알아낼 수 있습니다. ifconfig grep netmask !230315-172311 `inet` 이란? 네트워크 인터페이스에 할당된 IP 주소를 추출한다. `v...",
+            "url": "https://lavinoys.github.io/snippets/infra/my-ip",
+            "title": "MAC에서 내 IP 확인하기",
+            "date_modified": "2023-03-15T17:20:20.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "infra"
+            ]
+        },
+        {
+            "id": "/snippets/javascript/clipboard",
+            "content_html": "export const copyClipboard = async (url = window.document.location.href) => { try { await navigator.clipboard.writeText(url); aler...",
+            "url": "https://lavinoys.github.io/snippets/javascript/clipboard",
+            "title": "(JS) 클립보드 복사하기",
+            "date_modified": "2022-09-19T20:15:23.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "javascript",
+                "clipboard"
+            ]
+        },
+        {
+            "id": "/snippets/javascript/console",
+            "content_html": "CSS style console.log('%cfatfish', 'color: red;'); const getLogStyle = (code) => { const style = 'padding: 4px 8px;'; if (code >= ...",
+            "url": "https://lavinoys.github.io/snippets/javascript/console",
+            "title": "(JS) console.log 추가 기능",
+            "date_modified": "2022-09-23T20:09:57.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "javascript"
+            ]
+        },
+        {
+            "id": "/snippets/javascript/form-data",
+            "content_html": "기본적인 활용법 const submitHandle = (e) => { e.preventDefault(); const formData = new FormData(e.target); const formDataObj = Object.fro...",
+            "url": "https://lavinoys.github.io/snippets/javascript/form-data",
+            "title": "(JS) FormData로 submit 다루기",
+            "summary": "form event를 쉽게 다룰 수 있습니다.",
+            "date_modified": "2022-12-06T20:00:26.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "javascript"
+            ]
+        },
+        {
+            "id": "/snippets/javascript/prevent-input-focus-on-click",
+            "content_html": "input element를 클릭시 input에 focus가 안되고 동작을 커스터마이징하고 싶을 때가 있다. `event.preventDefault()`로 input 클릭시 디폴트로 이어지는 동작을 제어할 수 있다. 주의할 것은 `cl...",
+            "url": "https://lavinoys.github.io/snippets/javascript/prevent-input-focus-on-click",
+            "title": "(JS) input 클릭시 focus 안되도록",
+            "date_modified": "2023-01-16T13:27:17.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "javascript",
+                "DOM",
+                "preventDefault"
+            ]
+        },
+        {
+            "id": "/snippets/javascript/txt-file",
+            "content_html": "blob을 활용 const blob = new Blob(JSON.stringify(data), { type: 'text/plain' }); const textFile = window.URL.createObjectURL(blob); w...",
+            "url": "https://lavinoys.github.io/snippets/javascript/txt-file",
+            "title": "(JS) .txt File 만들기",
+            "date_modified": "2022-09-03T19:14:23.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "javascript"
+            ]
+        },
+        {
+            "id": "/snippets/javascript/version-regex",
+            "content_html": "const REGEX = /\\d+(\\.\\d+)+/gi; console.log(''.match(REGEX)); 네이버 userAgent에서 네이버 버전 추출하기 const NAVER_USERAGENT_REGEX = /\\d+(\\.\\d+)...",
+            "url": "https://lavinoys.github.io/snippets/javascript/version-regex",
+            "title": "(JS) regex로 버전 추출하기",
+            "date_modified": "2022-06-30T20:12:44.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "javascript",
+                "regex"
+            ]
+        },
+        {
+            "id": "/snippets/lint/eslint-sort-import",
+            "content_html": "eslint sort-imports 설정은 `autofix`를 제공해주지 않는다. 크게 2가지 방법으로 해결할 수 있다. simple-import-sort plugin을 통해서 설정이 간편하다. yarn add -D eslint-pl...",
+            "url": "https://lavinoys.github.io/snippets/lint/eslint-sort-import",
+            "title": "(ESLint) sort import",
+            "date_modified": "2023-01-11T18:57:07.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "eslint",
+                "import"
+            ]
+        },
+        {
+            "id": "/snippets/next.js/dayjs",
+            "content_html": "`moment`보다 가볍고 쉽게 날짜를 다룰 수 있습니다. MINIFIED + GZIPPED 기준으로 2.9KB(dayjs) vs 72KB(moment) 이면 차이가 어마무시합니다. - `chaining` 방식으로 날짜 다루기 편함 ...",
+            "url": "https://lavinoys.github.io/snippets/next.js/dayjs",
+            "title": "dayjs",
+            "date_modified": "2023-02-03T12:25:11.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "date"
+            ]
+        },
+        {
+            "id": "/snippets/next.js/document-fonts",
+            "content_html": "`Next.js` `_document.tsx`에서 `link`를 통해서 폰트를 적용하는 방법이다. 적절한 폰트를 찾는다. https://fonts.google.com/ <br /> <Head> <link rel=\"preconnect\"...",
+            "url": "https://lavinoys.github.io/snippets/next.js/document-fonts",
+            "title": "(Next.js) document fonts",
+            "date_modified": "2022-12-19T22:06:32.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "css",
+                "tailwindcss"
+            ]
+        },
+        {
+            "id": "/snippets/next.js/next-fonts",
+            "content_html": "`@next/font`를 지원하는 폰트, 로컬에 있는 폰트를 적용해보자. `variable fonts`를 사용하는 것이 성능상 베스트이지만, 아직 한글 폰트가 없다는 사실... 에서 마음에 드는 폰트를 다운 받아서 사용해보자. yar...",
+            "url": "https://lavinoys.github.io/snippets/next.js/next-fonts",
+            "title": "(Next.js) @next/fonts",
+            "date_modified": "2023-03-07T21:29:20.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "css",
+                "tailwindcss"
+            ]
+        },
+        {
+            "id": "/snippets/next.js/nprogress",
+            "content_html": "✨nprogress를 활용하여 route가 변경될시 로딩 UI를 표시할 수 있습니다. yarn add nprogress yarn add -D @types/nprogress <br /> useEffect(() => { const han...",
+            "url": "https://lavinoys.github.io/snippets/next.js/nprogress",
+            "title": "(Next.js) nprogress",
+            "date_modified": "2022-12-06T21:28:25.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js"
+            ]
+        },
+        {
+            "id": "/snippets/next.js/sitemap",
+            "content_html": "sitemap의 원리는 간단하기에 충분히 직접 만들 수 있다. 검색 엔진에 노출시킬 페이지만 잘 명시해주면 된다. sitemap.xml 생성하는 script 구현 핵심은 `fs.promises.writeFile`를 통해서 파일을 생성...",
+            "url": "https://lavinoys.github.io/snippets/next.js/sitemap",
+            "title": "(Next.js) sitemap.xml",
+            "summary": "직접 sitemap을 만들어서 배포시키자.",
+            "date_modified": "2022-12-27T21:15:46.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "sitemap",
+                "fs"
+            ]
+        },
+        {
+            "id": "/snippets/react/Icons",
+            "content_html": "아이콘마다 `import`해오는 건 코드가 더러워지게 된다. 모든 `svg` 아이콘을 `Icons`에 모아서 쓰자! import { Icons } from '~/components/Icons'; <Icons.logo className...",
+            "url": "https://lavinoys.github.io/snippets/react/Icons",
+            "title": "(React) Icons",
+            "date_modified": "2023-01-30T20:17:03.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "react",
+                "typescript"
+            ]
+        },
+        {
+            "id": "/snippets/react/confettiful",
+            "content_html": "`hook` 하나로 모든 것을 해결했다! import { useEffect, useState } from 'react'; / 초당 생성할 confetti 개수 / const confettiFrequency = 10; / confett...",
+            "url": "https://lavinoys.github.io/snippets/react/confettiful",
+            "title": "(React) useConfettiful",
+            "date_modified": "2022-12-29T00:39:41.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "react",
+                "typescript",
+                "hook",
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/react/lodash-debounce",
+            "content_html": "`javascript` yarn add lodash.debounce const App = () => { const searchValue, setSearchValue = useState(''); const searchHandler = ...",
+            "url": "https://lavinoys.github.io/snippets/react/lodash-debounce",
+            "title": "(React) Lodash Debounce",
+            "date_modified": "2022-12-13T21:31:23.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "react",
+                "javascript",
+                "typescript",
+                "debounce"
+            ]
+        },
+        {
+            "id": "/snippets/react/observer-transition",
+            "content_html": "const useObserver = () => { const rootRef = useRef<HTMLDivElement>(null); useEffect(() => { const $toc = document.querySelector('t...",
+            "url": "https://lavinoys.github.io/snippets/react/observer-transition",
+            "title": "(React) Observer Transition",
+            "date_modified": "2022-12-10T18:10:44.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "react"
+            ]
+        },
+        {
+            "id": "/snippets/react/react-hot-toast",
+            "content_html": "✨ react-hot-toast 🔥 Hot by default 🔩 Easily Customizable ⏳ Promise API - Automatic loader from a promise 🕊 Lightweight - less t...",
+            "url": "https://lavinoys.github.io/snippets/react/react-hot-toast",
+            "title": "react-hot-toast",
+            "date_modified": "2023-01-27T21:43:35.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js"
+            ]
+        },
+        {
+            "id": "/snippets/react/reading-progress-bar",
+            "content_html": "`Next.js` 기준으로 Styled JSX를 활용하여 구현했다. import { useEffect, useState } from 'react'; export default function ReadingProgressBar() { ...",
+            "url": "https://lavinoys.github.io/snippets/react/reading-progress-bar",
+            "title": "(React) scroll progress bar",
+            "date_modified": "2022-12-17T19:52:10.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "next.js",
+                "react",
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/react/use-media-query",
+            "content_html": "React / Next.js 런타임에서 MediaQuery를 충족시켰는지 여부를 알고 싶다. import { useCallback, useEffect, useState } from 'react'; export const useMedi...",
+            "url": "https://lavinoys.github.io/snippets/react/use-media-query",
+            "title": "(React) useMediaQuery",
+            "date_modified": "2023-01-14T01:15:43.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "react",
+                "typescript",
+                "hook",
+                "css"
+            ]
+        },
+        {
+            "id": "/snippets/typescript/remove-promise",
+            "content_html": "`Awaited` 문법을 통해서 Promise 타입을 벗겨낼 수 있다. // A = string type A = Awaited<Promise<string>>; // B = number type B = Awaited<Promise<Pr...",
+            "url": "https://lavinoys.github.io/snippets/typescript/remove-promise",
+            "title": "(TS) Type에서 Promise 제거하기",
+            "date_modified": "2022-12-30T23:51:35.000Z",
+            "author": {
+                "name": "Tom",
+                "url": "https://lavinoys.github.io"
+            },
+            "tags": [
+                "typescript"
+            ]
+        }
+    ]
+}
