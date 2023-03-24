@@ -1,0 +1,144 @@
+---
+title: 'tailwindcss 완벽 세팅 (feat Next.js)'
+description: ''
+icon: ''
+image: ''
+tags:
+  - tailwindcss
+draft: false
+date: 2023-01-31 20:15:20
+---
+
+## 기본 설정
+
+https://tailwindcss.com/docs/guides/nextjs
+
+```shell
+yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+```js:tailwind.config.js {4}
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/**/*.{ts,tsx}',
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+```css:global.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+---
+
+## 기본 도구
+
+**클래스명 정렬**
+
+[`prettier-plugin-tailwindcss`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+tailwindlabs에서 공식으로 지원하는 플러그인.
+
+[`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss) ✨
+prettier 의존성을 벗어남은 물론 몇몇 추가 기능을 제공하는 플러그인.
+
+[`headwind`](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)
+vscode 플러그인.
+
+---
+
+**클래스 합병**
+
+tailwind는 뒤에 클래스명을 선언한다고 해서 덮여 씌워지지 않는다.
+
+```shell
+yarn add -D clsx tailwind-merge
+```
+
+```ts:libs/utils
+import type { ClassValue } from 'clsx'
+import { clsx } from 'clsx'
+import { twMerge } from 'tailwind-merge'
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+```
+
+---
+
+## fonts
+
+https://tailwindcss.com/docs/font-family
+
+```diff-js:tailwind.config.js
++ const { fontFamily } = require('tailwindcss/defaultTheme')
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
++      fontFamily: {
++        sans: ['var(--font-spoqa)', ...fontFamily.sans],
++      },
+    },
+  },
+  plugins: [],
+}
+```
+
+```tsx:_app.tsx {6}
+import type { AppProps } from 'next/app';
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <div className='font-sans'>
+        <Component {...pageProps} />
+      </div>
+    </>
+  )
+}
+```
+
+`@next/fonts`와 함께 사용하는 방법은 [**`(Next.js) @next/fonts`**](/snippets/next.js/next-fonts) 참고
+
+---
+
+## 추가 설정
+
+**vscode `global.css` 경고 제거**
+
+![230310-013507](/images/posts/tailwindcss/230310-013507.png)
+
+보기 싫은 `Unknown at rule @tailwindcss(unknownAtRules)` 오류를 제거하자.
+
+```json:.vscode/settings.json
+{
+    "css.lint.unknownAtRules": "ignore",
+}
+```
+
+---
+
+**모바일에선 hover 스타일이 동작하지 않도록**
+
+```diff-js:tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
++  future: {
++    hoverOnlyWhenSupported: true,
++  },
+  // ...
+}
+```
+
+https://github.com/tailwindlabs/tailwindcss/pull/8394
